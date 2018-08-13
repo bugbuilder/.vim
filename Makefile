@@ -26,6 +26,8 @@ update-pathogen: ## Updates pathogen.
 
 .PHONY: README.md
 README.md: ## Generates and updates plugin info in README.md.
+	@sed -i '/Plugins Used/q' $@
+	@echo "" >> $@
 	@git  submodule --quiet foreach bash -c "echo -e \"* [\$$(git config --get remote.origin.url | sed 's#https://##' | sed 's#git://##' | sed 's/.git//')](\$$(git config --get remote.origin.url))\"" >> $@
 
 check_defined = \
