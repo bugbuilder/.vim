@@ -53,6 +53,8 @@ set re=1
 " do not hide markdown
 set conceallevel=0
 
+set pastetoggle=<F2>
+
 " open help vertically
 command! -nargs=* -complete=help Help vertical belowright help <args>
 autocmd FileType help wincmd L
@@ -221,6 +223,7 @@ nnoremap <space> zz
 
 nnoremap <F6> :setlocal spell! spell?<CR>
 
+
 " Select search pattern howewever do not jump to the next one
 nnoremap <leader>c :TComment<CR>
 
@@ -326,6 +329,7 @@ let g:go_highlight_extra_types = 0
 let g:go_highlight_operators = 0
 let g:go_highlight_build_constraints = 1
 let g:go_gocode_unimported_packages = 1
+let g:go_metalinter_autosave = 1
 
 au FileType go nmap <Leader>s <Plug>(go-def-split)
 au FileType go nmap <Leader>v <Plug>(go-def-vertical)
