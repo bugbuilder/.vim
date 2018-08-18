@@ -35,6 +35,7 @@ update                         Updates pathogen and all plugins.
 
 ## Plugins Used
 
+* [github.com/kien/ctrlp.vim](https://github.com/kien/ctrlp.vim.git)
 * [github.com/Raimondi/delimitMate](https://github.com/Raimondi/delimitMate.git)
 * [github.com/zchee/deoplete-go](https://github.com/zchee/deoplete-go.git)
 * [github.com/Shougo/deoplete.nvim](https://github.com/Shougo/deoplete.nvim.git)
@@ -46,9 +47,10 @@ update                         Updates pathogen and all plugins.
 * [github.com/vim-airline/vim-airline](https://github.com/vim-airline/vim-airline.git)
 * [github.com/ntpeters/vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace.git)
 * [github.com/ap/vim-buftabline](https://github.com/ap/vim-buftabline.git)
+* [github.com/tpope/vim-commentary](https://github.com/tpope/vim-commentary.git)
 * [github.com/tpope/vim-five.git](https://github.com/tpope/vim-fugitive.git)
 * [github.com/fatih/vim-go](https://github.com/fatih/vim-go.git)
 * [github.com/fatih/vim-hclfmt](https://github.com/fatih/vim-hclfmt.git)
+* [github.com/sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)
 * [github.com/uarun/vim-protobuf](https://github.com/uarun/vim-protobuf.git)
 * [github.com/tpope/vim-sensible](https://github.com/tpope/vim-sensible.git)
-* [github.com/wgwoods/vim-systemd-syntax](https://github.com/wgwoods/vim-systemd-syntax.git)
