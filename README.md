@@ -48,7 +48,7 @@ update                         Updates pathogen and all plugins.
 * [github.com/ntpeters/vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace.git)
 * [github.com/ap/vim-buftabline](https://github.com/ap/vim-buftabline.git)
 * [github.com/tpope/vim-commentary](https://github.com/tpope/vim-commentary.git)
-* [github.com/tpope/vim-five.git](https://github.com/tpope/vim-fugitive.git)
+* [github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive.git)
 * [github.com/fatih/vim-go](https://github.com/fatih/vim-go.git)
 * [github.com/fatih/vim-hclfmt](https://github.com/fatih/vim-hclfmt.git)
 * [github.com/sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)
